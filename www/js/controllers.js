@@ -8,7 +8,7 @@ angular.module('frontpage.controllers', ['ionic.services.analytics'])
     });
 
     // open the page in the inAppBrowser plugin. Falls back to a blank page if the plugin isn't installed
-    var params = 'location=yes,' +
+    var params = 'location=no,' +
       'enableViewportScale=yes,' +
       'toolbarposition=top,' +
       'closebuttoncaption=Done';
