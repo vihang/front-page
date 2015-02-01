@@ -25,6 +25,8 @@
   <feature name="InAppBrowser">
   <param name="ios-package" value="CDVInAppBrowser" />
   <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-</feature>
+  </feature>
+<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+
   
 </widget>
