@@ -22,4 +22,9 @@
   <feature name="Keyboard">
     <param name="ios-package" value="IonicKeyboard" onload="true"/>
   </feature>
+  <feature name="InAppBrowser">
+  <param name="ios-package" value="CDVInAppBrowser" />
+  <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+</feature>
+  
 </widget>
